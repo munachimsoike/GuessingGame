@@ -21,7 +21,7 @@ if level_of_choice == 1:
     sum_of_guesses = 6
     print("Cool!, Guess our secret number betweem 1 and 10. You have 6 guesses")
     secret_number = random.randint(1, 10)
-    print(secret_number)
+    #print(secret_number)
 
     while number_of_guess <= 6:
         guest_guess = int(input("Guess: "))
@@ -47,7 +47,7 @@ if level_of_choice == 2:
     sum_of_guesses = 4
     print("Cool!, Guess our secret number betweem 1 and 20. You have 4 guesses")
     secret_number = random.randint(1, 20)
-    print(secret_number)
+    #print(secret_number)
 
     while number_of_guess <= 4:
         guest_guess = int(input("Guess: "))
@@ -71,7 +71,7 @@ if level_of_choice == 3:
     sum_of_guesses = 3
     print("Cool!, Guess our secret number betweem 1 and 50. You have 5 guesses")
     secret_number = random.randint(1, 50)
-    print(secret_number)
+    #print(secret_number)
 
     while number_of_guess <= 3:
         guest_guess = int(input("Guess: "))
